@@ -1,9 +1,9 @@
 export default class weekdayCalculator {
-  constructor() {
-    // this.date = date;
-    // this.weekday = weekday;
+  constructor(ourDate, weekday) {
+    this.ourDate = ourDate;
+    this.weekday = weekday;
   }
-  getWeekDay() {
-
+  getOurWeekDay() {
+    return this.weekday = this.ourDate.getDay(); 
   }
 };
